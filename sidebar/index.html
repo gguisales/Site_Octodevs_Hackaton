@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+    <aside class="sidebar border">
+        <header class="sidebar-header">
+            <img class="perfil-img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfv1C87CiTd_k73XCuL-JQFjClY6WaDpkbkBuIr7MNt1wn9NqEYQgo_-kQZ59BazWOt4c&usqp=CAU" alt="foto do usuario"/>
+        </header>
+
+        <nav class="border">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">Home</i>
+                    <span>Home</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> sports_basketball</i>
+                    <span>Basquete</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> sports_soccer</i>
+                    <span>Futsal</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> sports_volleyball</i>
+                    <span>Vôlei</span>
+                </span>
+            </button>
+        </nav>
+
+    </aside>
+
+    <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined"> menu </i>
+        <span>Menu</span> 
+    </button>
+
+    <nav class="menu-mobile-active">
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> close </i>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">Home</i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> sports_basketball</i>
+                <span class="mobile-text">Basquete</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> sports_soccer</i>
+                <span class="mobile-text">Futsal</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> sports_volleyball</i>
+                <span class="mobile-text">Vôlei</span>
+            </span>
+        </button>
+
+    </nav>
+
+    <h1>Esportes</h1>
+
+    <div class="main">
+        
+            <a href="futebol.html" class="card">FUTEBOL</a>
+            <a href="Volei.html" class="card">VOLEI</a>
+            <a href="basquete.html" class="card">BASQUETE</a>
+
+        </div>
+
+    </div>
+
+    
+<script> src="script.js"</script>
+</body>
+
+</html>
