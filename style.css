@@ -62,8 +62,9 @@ body{
     background-image: url(assets/basquete.jpg);
     background-position: bottom center;
     background-size: cover;
-    
 }
+
+
 #futi{
     background-image: url(assets/futebol.jpg);
     background-position: bottom center;
@@ -86,27 +87,20 @@ body{
 
 
 @media only screen and (max-width:950px){
-    .card-login{
+    .card{
         width: 85%;
+        
     }
 }
 @media only screen and (max-width:600px){
-    .main-login{
+    .main{
        flex-direction: column;
+       padding-top: 10px;
+       margin-left: 20px;
     }
-    
-    .left-login{
-        width: 100%;
-        height: auto;
-    }
-    .rigth-login{
-        width: 100%;
-        height: auto;
-    }
-    .image-login{
-        width: 50vw;
-    }
-    .card-login{
+    .card{
         width: 90%;
+        padding-top: 10px;
+    margin-left: 20px;
     }
 }
