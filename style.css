@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0%;
+    ;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans',sans-serif;
+}
+body *{
+    box-sizing: border-box;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: line;
+    
+}
+
+.card{
+    padding: 0px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #8f9091;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px #00000056;
+    margin-top: -30px;
+    margin-left: 20px;
+        
+}
+    
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
+@media only screen and (max-width:600px){
+    .main-login{
+       flex-direction: column;
+    }
+    
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .rigth-login{
+        width: 100%;
+        height: auto;
+    }
+    .image-login{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
