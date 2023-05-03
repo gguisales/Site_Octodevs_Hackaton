@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+
+  
+ 
+/**/
 *{
     padding: 0%;
-    ;
+    
 }
 
 h1 {
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
@@ -15,13 +20,12 @@ h1 {
 
 body{
     margin: 0;
+    padding: 0;
     outline: none;
     box-sizing: border-box;
     font-family: 'Noto Sans',sans-serif;
-}
-body *{
-    box-sizing: border-box;
-    padding: 0;
+    background-color: #2e2d2d;
+
 }
 .main{
     width: 100vw;
@@ -31,10 +35,17 @@ body *{
     justify-content: center;
     align-items: center;
     flex-direction: line;
+    background-color: #2e2d2d;
+
     
 }
 
 .card{
+    
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(160, 0, 223);
+    color: rgb(253, 253, 253);
     padding: 0px;
     width: 350px;
     height: 300px;
@@ -45,11 +56,34 @@ body *{
     background: #8f9091;
     border-radius: 20px;
     box-shadow: 0px 10px 10px #00000056;
-    margin-top: -30px;
+    padding-top: 10px;
     margin-left: 20px;
-        
-}
+    text-decoration: none;
+    background-image: url(assets/basquete.jpg);
+    background-position: bottom center;
+    background-size: cover;
     
+}
+#futi{
+    background-image: url(assets/futebol.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+#voli{
+    background-image: url(assets/volei.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+#basi{
+    background-image: url(assets/basquete.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+
+
 
 @media only screen and (max-width:950px){
     .card-login{
