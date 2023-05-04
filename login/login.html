@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+            <h1>Login</h1>
+            <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="social_media">
+                <a href="">
+                    <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png" alt="facebook logo">
+                </a>
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github logo">
+                </a>
+            </div>
+
+            <div id="input">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+
+                        <div class="input-box">
+                            <label for="email">
+                                Email
+                                <div class="input-field">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                            </label>
+                        </div>
+
+                                <div class="input-box">
+                                    <label for="senha">
+                                        Senha
+                                        <div class="input-field">
+                                            <i class="fa-solid fa-lock"></i>
+                                            <input type="password" id="senha" name="senha">
+                                        </div>
+                                    </label>
+                                <div id="forgot_passoword">
+                                    <a href="#">
+                                        Esqueceu a senha?
+                                    </a>
+                                </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+    
+</body>
+</html>

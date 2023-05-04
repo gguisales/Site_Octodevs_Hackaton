@@ -1,0 +1,200 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+header{
+    background-color: #56096E;
+    box-shadow: 0px 3px 10px #464646;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logoPesquisa{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.nav-input input{
+    margin: 0.2rem 0.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px #0000001c;
+    transition: 0.5s;
+}
+.nav-input input:hover{
+    background-color: #eeeeee75;
+}
+.nav-listem{
+    display: flex;
+    justify-content: center;
+}
+.nav-listem ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: #1E90FF;
+}
+.nav-btn button{
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.nav-btn button:hover{
+    background-color: #1E90FF;
+}
+.nav-btn button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+#logo {
+    width: 600px; /* Ajuste o tamanho conforme necessário */
+    height: 700px;
+    margin-top: 10px; /* Adiciona margem superior */
+    margin-left: 150px; /* Adiciona margem esquerda */
+    object-fit: contain;
+    align-items: center;
+
+}
+
+.logo-container {
+    background-color: #84339d; 
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 20px; /* Ajuste a margem conforme necessário */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+.explanation-container {
+    background-color: #f2f2f2; /* Define uma cor de fundo para a div */
+    width: 50%;
+    height: 745px;
+    float: left;
+    padding: 10px;
+    background-color: darkgray;
+
+}
+.explanation-text {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.fotos{
+    background-color: #84339d;
+    align-items: left;
+}
+.fotos img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.item figcaption {
+    font-size: 22px;
+
+
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-mobile .nav-item{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .menu-mobile .nav-btn button{
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+}
