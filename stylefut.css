@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+ 
+/**/
+*{
+    padding: 0%;
+    
+}
+
+.container{
+    
+    width: 50%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top:40px;
+    background-color: #aaaaaa;
+    padding: 0px;
+    padding-top: 1px;
+    align-content: center;
+    border-radius: 40px;
+    
+}
+.placar1{
+    margin-bottom: 10px;
+    
+}
+
+#placar1:hover {
+    transform: scale(1.1);
+  }
+
+.placar {
+   
+    color: rgb(253, 253, 253);
+    padding: 0px;
+    border: 10px;
+    width: 545px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #8f9091;
+    border-radius: 60px;
+    box-shadow: 0px 10px 10px #00000056;
+    margin-top: 35px;
+    margin-left: 0px;
+    text-decoration: none;
+    }
+
+
+
+
+
+@media only screen and (max-width:950px){
+    .placar1 .placar2 .placar3 {
+        width: 85%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .main-login{
+       flex-direction: column;
+    }
+} 
