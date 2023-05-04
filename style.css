@@ -16,6 +16,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 body{
@@ -36,7 +37,9 @@ body{
     align-items: center;
     flex-direction: line;
     background-color: #2e2d2d;
-
+    margin-top: 6px;
+    padding: 0;
+    padding-top: 10px;
     
 }
 
@@ -64,6 +67,17 @@ body{
     background-size: cover;
 }
 
+#futi:hover {
+    transform: scale(1.1);
+  }
+
+#voli:hover {
+    transform: scale(1.1);
+  }
+
+#basqi:hover {
+    transform: scale(1.1);
+  }
 
 #futi{
     background-image: url(assets/futebol.jpg);
@@ -77,7 +91,7 @@ body{
     background-size: cover;
     
 }
-#basi{
+#basqi{
     background-image: url(assets/basquete.jpg);
     background-position: bottom center;
     background-size: cover;

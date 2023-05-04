@@ -31,7 +31,7 @@ h1{
     align-content: center;
     border-radius: 40px;
     border-style:solid;
-    border-color: green;
+    border-color: blue;
     
 }
 .placar1{
@@ -169,7 +169,6 @@ h1{
         color: rgba(255, 0, 0, 0.664);
     }
     .aviso{
-        
         font-size: small;
         position: absolute;
         margin-top: 85px;
