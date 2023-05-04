@@ -40,7 +40,7 @@ body{
     margin-top: 6px;
     padding: 0;
     padding-top: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
     
 }
 
@@ -66,6 +66,7 @@ body{
     background-image: url(assets/basquete.jpg);
     background-position: bottom center;
     background-size: cover;
+    transition: 0.2s;
 }
 
 #futi:hover {

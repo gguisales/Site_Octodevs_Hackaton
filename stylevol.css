@@ -15,14 +15,14 @@ h1{
 }
 
 .container{
-    position: absolute;
+    
     width: 50%;
     height: 590px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top:40px;
     background-color: #aaaaaa;
     padding: 0px;
@@ -173,6 +173,28 @@ h1{
         position: absolute;
         margin-top: 85px;
     }
+    .button{
+        background-color: #41358C;
+            width: 120px;
+            height: 20px;
+            border-radius: 20px;
+            border: none;
+        }
+        #button1{
+            position: absolute;
+            margin-top: -60px;
+            margin-left:-60px;
+        }
+        #button2{
+            position: absolute;
+            margin-top: -60px;
+            margin-left:-60px;
+        }
+        #button3{
+            position: absolute;
+            margin-top: -60px;
+            margin-left:-60px;
+        }
     img{
         padding-top: 2px;
         height: 70px;

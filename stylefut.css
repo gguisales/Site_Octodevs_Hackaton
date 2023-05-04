@@ -14,41 +14,6 @@ h1{
 
 }
 
-.containerG{
-
-    display: flex;
-    justify-content:space-between;
-    flex-grow: 2;
-}
-
-.containerA{
-    width: 20%;
-    height: 590px;
-   
-    
-    margin-left: 0px;
-    margin-top:40px;
-    background-color: #aaaaaa;
-    padding: 0px;
-    
-    border-radius: 40px;
-    
-}
-
-.containerB {
-    width: 20%;
-    height: 590px;
-   
-    
-    margin-left: 60px;
-    margin-top:40px;
-    background-color: #aaaaaa;
-    padding: 0px;
-    
-    border-radius: 40px;
-}
-
-
 .container{
     
     width: 50%;
@@ -58,20 +23,17 @@ h1{
     align-items: center;
     flex-direction: column;
     margin-left: 300px;
-    margin-top:10px;
+    margin-top:40px;
     background-color: #aaaaaa;
     padding: 0px;
     padding-top: 1px;
     padding-bottom: 50px;
-    pa
     align-content: center;
     border-radius: 40px;
     border-style:solid;
     border-color: green;
     
 }
-
-
 .placar1{
     margin-bottom: 10px;
     
@@ -206,6 +168,29 @@ h1{
     #avi1{
         color: rgba(255, 0, 0, 0.664);
     }
+    .button{
+    background-color: #41358C;
+        width: 120px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    #button1{
+        position: absolute;
+        margin-top: -60px;
+        margin-left:-60px;
+    }
+    #button2{
+        position: absolute;
+        margin-top: -60px;
+        margin-left:-60px;
+    }
+    #button3{
+        position: absolute;
+        margin-top: -60px;
+        margin-left:-60px;
+    }
+
     .aviso{
         
         font-size: small;
