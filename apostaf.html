@@ -5,26 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="apostf.css">
-    <title>Placar Basquete</title>
+    <title>Pslpites Futebol</title>
 
 </head>
 <body>
     <header>
         <a href="index.html"><img src="assets/logosemfundo.png"></a>
         <H1>Palpites Futebol</H1>
-        <a href="futebol.html"><img  id="coin" src="assets/coin.png.png" alt="img_moeda"></a>
+        <a  id="coin" href="futebol.html"><img  id="imgcoin"src="assets/coin.png.png" alt="img_moeda">0</a>
     </header>
     <nav>
         <div class="times" id="time1">
+
+            <img class="camisas" id="camisaDS" src="assets/bluetshirt.png" alt="camisa esporiva azul">
+           
+            <span class="input-wrapper">
+                <button id="decrement">-</button>
+                <input type="number" value="1" id="quantity" />
+                <button id="increment">+</button>
+              </span>
+
+
+              <button class="btns" id="btn1">Enviar</button>
+              
+
         </div>
 
         <div class="times" id="time2">
+
+            <img  class="camisas" id="camisaJOD" src="assets/redtshirt.png" alt="camisa esporiva vermelha">
+
+            <span class="input-wrapper">
+                <button  id="decrement2">-</button>
+                <input type="number" value="1" id="quantity2" />
+                <button  id="increment2">+</button>
+              </span>
+              <button class="btns" id="btn2">Enviar</button>
+
         </div>
     </nav>
+    <section>
+        
+        <div class="fttime" id="fttime1">
+            DS
+        </div>
+        <div class="fttime" id="fttime2">
+            JOD
+        </div>
+    </section>
         
         
         
-    
+    <script>
+        const incrementButton = document.querySelector("#increment, #increment2" );
+        const decrementButton = document.querySelector("#decrement, #increment2");
+        const quantityInput = document.querySelector("#quantity, #quantity2");
+        
+        incrementButton.addEventListener("click", () => {
+          quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+        decrementButton.addEventListener("click", () => {
+          quantityInput.value = parseInt(quantityInput.value) - 1;
+        });
+        
+        
+        </script>
        
 </body>
 </html>

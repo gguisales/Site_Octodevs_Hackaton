@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -24,21 +25,28 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
     a{
         color: white;
     }
-}
+
 #coin{
-    width: 40px;
-    height: 40px;
+    color: white;
+    width: 30px;
+    height: 30px;
     position: absolute;
     margin-bottom: 110px;
     display: flex;
     align-items: center;
     margin-left: 1130px;
-    margin-top: -160px;
+    margin-top: -150px;
+    text-decoration:none;
     
+}
+#imgcoin{
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -47,17 +55,18 @@ nav{
 }
 
 .times{
+    color: rgb(0, 0, 0);
     width: 500px;
-    height: 600px;
+    height: 500px;
     margin-left: 70px;
     margin-top:40px;
     background-color: #aaaaaa;
     padding: 0px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 2px solid green;
 }
 
-    .time{
+    .time2{
         display: inline;
         color: #000000;
         width: 20px;
@@ -69,17 +78,111 @@ nav{
         color: #000000;
         width: 20px;
         height: 20px;
-       
-
-
     }
-
-
-   
-
-   
     
 
+    section{
+        display: flex;
+    }
+
+.fttime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 90px;
+    background-color: #7e7e7e;
+    
+    width: 2000px;
+    height: 200px;
+    border-radius: 100%;
+
+    font-size: x-large;
+}
+/*---------------------------------------------- */
+.input-wrapper {
+    width: 150px;
+    height: 35px;
+    margin-left: 170px;
+    
+    
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .input-wrapper * {
+    border: none;
+    width: 50px;
+    flex: 1;
+  }
+  
+  .input-wrapper button {
+    cursor: pointer;
+  }
+  
+  .input-wrapper button:first-child {
+    border-radius: 60px 0 0 60px;
+    color: red;
+  }
+  
+  .input-wrapper button:last-child {
+    border-radius: 0 60px 60px 0;
+    color: green;
+  }
+  /* -----------------------------*/
+span{
+    display: flex;
+    position: absolute;
+    
+    margin-top: 10px;
+    
+}
+.btns{
+            color: #ffffff;
+    background-color: #41358C;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            margin-left: 170px;
+            margin-top: 60px;
+}
+
+#fttime2{
+    
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin-left: 225px;
+    justify-items: center;
+
+}
+#fttime1{
+    color: #f7f7f7;
+    width: 200px;
+    height: 200px;
+    margin-left: 800px;
+        
+
+}
+    .camisas{
+        display: flex;
+        margin-top: 160px;
+        margin-left: 155px;
+        width: 190px;
+        height: 170px;
+        margin-bottom: 40px;
+    }
     
     img{
         padding-top: 2px;
